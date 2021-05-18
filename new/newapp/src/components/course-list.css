@@ -1,0 +1,20 @@
+.course-list-container{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 0 auto;
+}
+.course-list-container p{
+     font-size: medium;
+     border-bottom: 1px solid black;
+     font-weight: 700;
+     width: 100%;
+     text-align: center;
+}
+.course-item{
+     background-color: burlywood;
+     font-weight: 700;
+     padding:5rem;
+     width:20%;
+}
