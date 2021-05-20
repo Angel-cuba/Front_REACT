@@ -4,6 +4,7 @@
      align-items: center;
      flex-wrap: wrap;
      margin: 0 auto;
+     background-color: rgba(180, 121, 121,.1);
 }
 .course-list-container p{
      font-size: medium;
@@ -13,8 +14,25 @@
      text-align: center;
 }
 .course-item{
-     background-color: burlywood;
+     background-color: rgba(29, 65, 95, 0.4);
+     text-align: center;
+
      font-weight: 700;
      padding:5rem;
      width:20%;
+     margin: auto;
+}
+img{
+     width: 200px;
+     height:200px;
+}
+button{
+     width: 100%;
+     padding: .853em;
+     background-color: navy;
+     color: #fff;
+     font-weight: 700;
+     outline: none;
+     border: none;
+
 }

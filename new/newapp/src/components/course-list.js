@@ -1,21 +1,17 @@
-import "./course-list.css";
 import CourseItem from "./course-item";
+import "./course-list.css";
+import coursesData from "../data/courses";
 
 const CourseList = (props) => {
-
-const courseItems = [];
-
-for (let i = 0; i < props.numero; i++) {
-     courseItems.push(<CourseItem indice={i}/>)
-}
-               
-     // const courseItem = <div className="course-item"></div>
 
      return (
           <div className="course-list-container">
                <p>{props.tituloLista}</p>
               
-               {courseItems}
+               {coursesData.map((course, index) => {
+               return <CourseItem key={index} name={course.name} img={course.img}/>;
+               
+                    })}
           </div>
      );
 };
