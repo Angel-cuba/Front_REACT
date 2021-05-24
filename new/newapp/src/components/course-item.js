@@ -7,7 +7,7 @@ const CourseItem = (props) => {
      return <div className="course-item">
                <img src={props.img} alt=""/>
                <h2>{props.name}</h2>
-               <span>Likes: {likes}</span>
+               <span>All likes: {likes}</span>
                <button onClick={() => setLikes(likes+1)}>Change</button>
                     </div>
 }
